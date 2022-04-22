@@ -1,0 +1,35 @@
+.imagem-carrossel {
+    object-fit:cover; /* object-fti diz a imagem como ela deve se comportar de acordo com o seu container
+    e o valor cover faz com que a imagem cubra o espaço determinado mas sem perder qualidade, corta o que sobra*/
+    object-position: 0 80% ; /* permite movimentar a imagem dentro de seu espaço; o primeiro valor é referente ao
+    eixo X, que seria esquerda e direita, e o segunda o eixo y, cima e baixo */
+    height: 400px;
+}
+
+
+.font-titulo,
+.titulo-principal {
+    font-family: 'Pacifico', cursive;
+}
+
+.special-color,
+.border-cards,
+.titulo-principal {
+    color: darkred!important;  /*o atributo !important permite com que um valor pule a cascata e ganhe 
+    mais importância que o uso em outro local. Mas usar somente em ultimo caso*/
+}
+
+
+.card-largura {
+    max-width: 18rem;
+}
+
+.button-cards {
+    background-color: darkred;
+    color: white;
+}
+
+.card-imagem {
+    object-fit: cover;
+    height: 200px;
+}

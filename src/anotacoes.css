@@ -1,0 +1,26 @@
+/* Landing pages são mais simples, estáticas, mais para a apresentação de um produto. */
+
+/* o bootstrap já tem todo o código pronto, e o pegamos no próprio site do bootstrap, através de uma */
+/* pesquisa, simples assim. */
+
+/* Sempre ter atenção aos atributos de acessibilidade, pois geralmente estão ativados com css, e nem 
+sempre serão necessários */
+
+/* COPIANDO APENAS AS CLASSES
+O bootstrap nos permite copiar apenas as classes, de acordo com o que precisamos. 
+Ex: se precisamos de um posicionamento flex, procuramos por classes de flex no site, ou position, e etc.. */
+
+/* Sempre cuidado ao copiar variáveis de cores do bootstrap, pois as cores são semânticas, tem nomes 
+com significado, portanto usar apenas se o nome estiver de acordo com a funcionalidade */
+
+/* Ter sempre atenção a semântica do html quando usar um framework, pois uma estrutura sbem elaborada,
+semântica, ajuda na acessibilidade para quem usa leitores de tela e também no SEO, que deixa o site melhor
+indexado */
+
+/* com bootstrap não precisamos usar media queries, e com grid colocamos os valores de cada tamanho de tela
+como classes no próprio item. Para escolhermos quanto cada caixa vai ocupar na coluna, usamos as classes
+.col-, e dentro delas escolhemos o valor da tela e o valor da divisão de 12 pedaços
+que o bootstrap divide, .col-sm-12  .col-md-4 ;col-lg-2 */
+
+/* Margin e padding também adicionamos diretamente como classes no html, assim como alinhamentos de grid e flex */
+/* Podemos usar container-fluid para retirar as margin padrão do html, e fazer a caixa ocupar toda a largura */
